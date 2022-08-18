@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+        <div class="container">
+            <div class="imgArea"> 
+                <h1>Bem-vindo ao <br>nosso site!</h1>
+                <img src="/Raining.gif">
+                
+            </img>
+            </div>
+            <div class="formArea">
+                <h2>Crie sua conta</h2>
+                <div class="line"></div>
+                <form action="cadastro.php" method="post" id="Validator" class="form" >
+                    <label>
+                        Seu nome:
+                        <input type="text" name="name" data-rules="required|min=2" id="nome" placeholder="Digite seu nome">
+                    </label>
+                    <label>
+                        Seu email:
+                        <input type="text" name="email" data-rules="required" placeholder="Digite seu melhor email">
+                    </label>
+                    <label>
+                        Sua senha:
+                        <input type="password" name="password" data-rules="required|min=4" placeholder="Digite sua senha" >
+                    </label>
+                    <label >
+                        <input type="submit" value="Cadastrar" class="btn">
+                    </label>
+                    <div class="conta">
+                        <span>Já tem uma conta? <a href="">Faça o Login</a></span>
+                    </div>
+                </form>
+                
+            </div>
+        </div>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
