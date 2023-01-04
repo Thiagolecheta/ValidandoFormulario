@@ -10,3 +10,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - HTML e CSS
 - JavaScript
 - Git e Github
+
+## 💻 Projeto
+
+O projeto é um validaão de formulario, onte o usuario precisa preencher todos os campos antes de ser enviado. 
+
+- [Acesse o projeto finalizado, online](https://validando-formulario-iota.vercel.app)
